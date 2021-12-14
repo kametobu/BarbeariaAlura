@@ -3,8 +3,21 @@ body{
     padding: 0;
 }
 
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
 header{
     background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
 nav li{
@@ -19,3 +32,39 @@ nav a{
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.descricaoproduto{
+    font-size: 18px;
+}
+
+.precoproduto{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+
