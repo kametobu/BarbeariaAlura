@@ -36,7 +36,7 @@ em strong{
     color: tomato;
 }
 
-ul{
+.ListaB{
     display: inline-block;
     vertical-align: top;
     width: 20%;
