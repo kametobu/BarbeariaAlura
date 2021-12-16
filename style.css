@@ -1,59 +1,125 @@
 body{
-    padding: 0;
     margin: 0;
-}
-
-
-#banner{
-    width: 100%;
     padding: 0;
-    margin: 0;
 }
 
-
-.titulo-principal{
-    padding-left: 20px;
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.Principal{
-    background-color: #CCCCCC;
-    padding: 30px;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-centralizado{
-    text-align: center;
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
-p{
-    text-align: center;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-#missao{
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
     font-size: 1.2rem;
 }
 
-em strong{
-    color: tomato;
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
 }
 
-.ListaB{
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.itens{
-    text-decoration: none;
-    font-style: italic;
+.produtos li:hover{
+    border: 2px solid #C78C19;
+}
+
+.produtos li:hover h2{
+    font-size: 32px;
+}
+
+.produtos li:active{
+    border: 2px solid #c71919;
+    
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 
-.Beneficios{
-    background-color: #FFFFFF;
-    padding: 20px;
+.descricaoproduto{
+    font-size: 18px;
 }
 
-.imagemBeneficios{
+.precoproduto{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+footer{
+    background-image: url("./bg.jpg");
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
 }
