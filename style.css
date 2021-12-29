@@ -100,8 +100,7 @@ footer{
 }
 
 main{
-    width: 940px;
-    margin: 0 auto;
+ 
 }
 
 form{
@@ -171,6 +170,24 @@ td, th{
     clear: left;
 }
 
+/*
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+
+.titulo-principal::before{
+    content: "[ ";
+}
+.titulo-principal::after{
+    content: " ]";
+}
+*/
+
+.itens::before{
+    content: "★";
+}
+
+
 .Principal p{
     margin: 0 0 1em;
 }
@@ -197,9 +214,14 @@ td, th{
 
 .mapa{
     padding: 3em 0;
-
+    background: linear-gradient(#FEFEFE,#888888);
+    
 }
 
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
 
 .mapa p{
     margin: 0 0 2em;
@@ -214,6 +236,7 @@ td, th{
 
 .Beneficios{
     padding: 3em 0;
+    background-color: #888888;
 }
 
 .conteudo-beneficios{
@@ -235,3 +258,29 @@ td, th{
 .itens:first-child{
     font-weight: bold;
 }
+
+.Principal{
+    padding: 3em 0;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*
+main > p{
+    background-color: blue;
+}
+
+img + p{
+    background-color: blueviolet;
+}
+
+img ~ p{
+    background-color: chocolate;
+}
+
+.Principal p:not(#missao){
+    background-color: darkgoldenrod;
+}
+*/
+
