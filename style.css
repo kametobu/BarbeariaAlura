@@ -298,7 +298,16 @@ img ~ p{
 
 
 @media screen and (max-width: 480px) {
-    body{
-        background-color: red;
+        .caixa, .Principal, .conteudo-beneficios, .mapa-conteudo, .video{
+            width: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        nav{
+            position: static;
+        }
+        .Lista-Beneficio, .imagem-Beneficios{
+            width: 100%;
         }
     } 
